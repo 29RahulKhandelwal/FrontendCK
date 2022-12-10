@@ -44,3 +44,6 @@
 .background{
     background-color: aliceblue;
 }
+.row{
+    cursor: pointer;
+}

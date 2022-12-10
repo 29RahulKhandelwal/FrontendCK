@@ -117,7 +117,7 @@ const Table = () => {
                 <tbody>
                     {Dummy.map(data => {
                         return (
-                            <tr key={data.id} onClick={e=>handleBackground(data.id)} className={`${background.find(id=>id===data.id) && "background"}`}>
+                            <tr key={data.id} onClick={e=>handleBackground(data.id)} className={`${background.find(id=>id===data.id) && "background"} row`}>
                                 <th scope="row">{data.id}</th>
                                 <td>{data.first_name}</td>
                                 <td>{data.last_name}</td>
