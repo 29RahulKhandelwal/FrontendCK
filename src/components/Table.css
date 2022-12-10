@@ -1,0 +1,46 @@
+.table{
+    overflow: auto;
+}
+.col{
+    display: flex;
+}
+.threeDots{
+    cursor: pointer;
+}
+.tableHeading{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    justify-content: space-around;
+}
+.heading{
+    width: max-content;
+}
+.sort{
+    box-shadow: 0 2px 8px rgb(0 0 0 / 25%);
+    width: 165px;
+    position: fixed;
+    background: white;
+    top: 34px;
+}
+.sortLists{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.sortList{
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.sortList:hover{
+    background-color: lightgray;
+}
+.statusGreen{
+    color: green;
+}
+.statusRed{
+    color: red;
+}
+.background{
+    background-color: aliceblue;
+}
